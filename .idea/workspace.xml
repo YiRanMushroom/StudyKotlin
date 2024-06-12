@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4882d3f2-67a7-4066-a4da-596e3e48db8f" name="Changes" comment="Learning">
-      <change afterPath="$PROJECT_DIR$/src/leetcodes/1002.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodes/19.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodes/3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodes/75.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dependencies/ListNodeExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/ListNodeExtension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodes/1002.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodes/1002.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,7 +81,9 @@
       <workItem from="1718092318167" duration="4000" />
       <workItem from="1718093314345" duration="3594000" />
       <workItem from="1718097248421" duration="14962000" />
-      <workItem from="1718177906055" duration="2754000" />
+      <workItem from="1718177906055" duration="3118000" />
+      <workItem from="1718183755041" duration="60000" />
+      <workItem from="1718187336355" duration="2756000" />
     </task>
     <task id="LOCAL-00001" summary="Learning">
       <option name="closed" value="true" />
@@ -95,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718115337220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learning">
+      <option name="closed" value="true" />
+      <created>1718180944979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718180944979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
