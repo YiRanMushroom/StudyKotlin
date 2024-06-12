@@ -1,28 +1,28 @@
 package dependencies
 
 class ListNodeBuilder {
-    val array = ArrayList<Int>()
+
+    var head: ListNode? = null
+    var now: ListNode? = null
 
     fun clear() {
-        this.array.clear()
+        head = null
+        now = null
     }
 
-    fun append(value: Int = 0) {
-        this.array.add(value)
+    fun append(value: Int = 0): ListNodeBuilder {
+        if (head == null) {
+            head = ListNode(value)
+            now = head
+        } else {
+            now!!.next = ListNode(value)
+            now = now!!.next
+        }
+
+        return this
     }
 
     fun build(): ListNode? {
-        if (array.isEmpty()) return null
-
-        val head = ListNode(array[0])
-
-        var thisNode: ListNode = head
-
-        for (index in 1..<array.size) {
-            thisNode.next = ListNode(array[index])
-            thisNode = thisNode.next!!
-        }
-
         return head
     }
 }
@@ -77,4 +77,10 @@ fun listNodeOf(vararg args: Int): ListNode? {
     val builder = ListNodeBuilder()
     args.forEach { builder.append(it) }
     return builder.build()
+}
+
+fun ListNode.size(): Int {
+    var length = 0
+    this.forEach { length++ }
+    return length
 }
